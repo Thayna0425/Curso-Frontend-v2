@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style/custom.css">
     <link rel="stylesheet" href="./style/custom-form.css">
     <title>Cadastro</title>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
-                        <div class="input-group">
+                        <div class "input-group">
                             <input class="form-control" type="text" name="cidade" placeholder="Cidade" required>
                         </div>
                     </div>
@@ -116,9 +116,8 @@
                 </div>
                 <button type="submit" class="btn btn-lg btn-success">Realizar cadastro</button>
             </form>
-            <p> <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber
-                novidades.</p>
-        </div> 
+            <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber novidades.</p>
+        </div>
     </section>
 
     <div class="modal fade" id="modal-1">
@@ -133,12 +132,10 @@
                     <form class="form-inline">
                         <div class="row">
                             <div class="form-group col-4">
-                                <input type="text" class="form-control form-control-sm mb-2" name="nome"
-                                    placeholder="Nome" required>
+                                <input type="text" class="form-control form-control-sm mb-2" name="nome" placeholder="Nome" required>
                             </div>
                             <div class="form-group col-4">
-                                <input type="text" class="form-control form-control-sm mb-2" name="e-mail"
-                                    placeholder="E-mail" required>
+                                <input type="text" class="form-control form-control-sm mb-2" name="e-mail" placeholder="E-mail" required>
                             </div>
                             <div class="form-group col-4">
                                 <button type="submit" class="btn btn-sm btn-success">Receber novidades</button>
@@ -147,4 +144,10 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
